@@ -1,0 +1,234 @@
+
+@media (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .row {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* from tablets to laptops */
+@media (max-width: 1024px) {
+
+    .hero-text-box {
+
+        width: 80%;
+        padding-left: 2%;
+        top: 60%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .row {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-nav li {
+        margin-right: 15px;
+    }
+
+    footer .row {
+        width: 100%;
+    }
+
+    .section-form .row {
+        width: 80%;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-form .row {
+        width: 100%;
+    }
+
+    .city-feature {
+        font-size: 80%;
+    }
+
+    .icon-small {
+        width: 20px;
+        margin-right: 0;
+    }
+
+    .plan-box li {
+
+        font-size: 70%;
+    }
+
+    .plan-box li i {
+        padding: 3%;
+    }
+
+    .meal-photo img:hover {
+        transform: scale(1.06);
+    }
+
+    .section-steps .row:not(:first-child){
+
+        padding: 0 30px;
+        font-size: 90%;
+    }
+
+    .step-box:last-child {
+        padding-left: 3%;
+        margin-top: 30px;
+    }
+
+    .btn-app img {
+        height: 30px;
+        width: auto;
+        margin-top: 20px;
+        transform: translateX(50%);
+    }
+
+    h3 {
+        font-size: 90%;
+    }
+
+}
+
+/* from larg mobiles to tablets */
+@media (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 120%;
+    }
+
+    .hero-text-box .btn {
+        padding: 10px 20px;
+        top: 50%;
+    }
+
+    h2 {
+
+        font-size: 120%;
+    }
+
+    .step-box:first-child {
+        text-align: center;
+    }
+
+    .section-plans .col{
+        margin-bottom: 35px;
+    }
+
+    .section-form div:last-child div {
+        margin-bottom: 5px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+    }
+
+    footer div:first-child > div div:nth-child(2) ul {
+        margin: 5% 26%;
+        transform: translateX(-20%);
+    }
+
+    form:last-child div:last-child {
+
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .step-box:last-child {
+        font-size: 60%;
+    }
+    .works-step {
+        margin-bottom: 5px;
+        float: left;
+        clear: both;
+    }
+
+    .works-step div {
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        float: left;
+        font-size: 120%;
+        padding: 2px;
+        clear: both;
+        margin-top: 15px;
+    }
+
+    .works-step p {
+        float: left;
+        width: 70%;
+        text-align: left;
+    }
+
+
+}
+
+/* from small mobiles to large mobiles */
+@media (max-width: 423px) {
+
+    footer div:first-child > div div:nth-child(2) ul {
+        margin: 2% 20%;
+        transform: translateX(-20%);
+    }
+
+    .footer-nav li {
+        margin-right: 15px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer .row {
+       padding: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+
+    body {
+        font-size: 10px;
+    }
+
+    footer > div {
+        float: none;
+    }
+    .footer-nav {
+        list-style: none;
+        float: none;
+        margin-left: 13%;
+        margin-bottom: 5%;
+    }
+
+}
